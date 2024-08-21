@@ -103,8 +103,8 @@ def home():
 
 
 
-my_email = "spradnya0703@gmail.com"
-password = "lwyv ogqr gabl ntld"  # Replace with your actual app password
+my_email = "your email"
+password = "Your password"  # Replace with your actual app password
 
 def send_email(to_email, subject, body):
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
@@ -118,8 +118,8 @@ def send_email(to_email, subject, body):
 # Call the function to send OTP if today is Friday
 
 def send_otp(email, otp):
-    sender_email = "spradnya0703@gmail.com"
-    sender_password = "lwyv ogqr gabl ntld"  
+    sender_email = "your email"
+    sender_password = "Your password"  
     
     # Set up the email content
     msg = MIMEText(f"Your OTP for login is: {otp}")
